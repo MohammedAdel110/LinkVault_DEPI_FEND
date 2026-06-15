@@ -2,7 +2,7 @@ import axios from 'axios';
 import { useAuthStore } from '../store/authStore';
 
 const apiClient = axios.create({
-  baseURL: 'http://linkvaultapi.runasp.net',
+  baseURL: 'https://linkvaultapi.runasp.net',
   headers: {
     'Content-Type': 'application/json',
   },

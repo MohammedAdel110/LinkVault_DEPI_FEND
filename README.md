@@ -51,7 +51,7 @@
    ```
 
 ## 🌐 API Integration
-This frontend is configured to communicate with the LinkVault backend API (`http://linkvaultapi.runasp.net`). Ensure you have network connectivity to the API when authenticating and fetching resources.
+This frontend is configured to communicate with the LinkVault backend API (`https://linkvaultapi.runasp.net`). Ensure you have network connectivity to the API when authenticating and fetching resources.
 
 ## 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
