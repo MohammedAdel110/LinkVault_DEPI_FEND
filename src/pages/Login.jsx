@@ -62,8 +62,8 @@ export default function Login() {
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
-    email: "",
-    password: "",
+    email: "demo@linkvault.com",
+    password: "Password123!",
   });
 
   const [errors, setErrors] = useState({});
@@ -306,6 +306,13 @@ export default function Login() {
                   "Create Account"
                 )}
               </Button>
+
+              {isLogin && (
+                <div className="mt-6 p-4 rounded-xl bg-accent/5 border border-accent/20 text-center text-sm">
+                  <p className="text-muted-foreground mb-1">To explore the app without registering, use:</p>
+                  <p className="font-medium text-foreground">demo@linkvault.com <span className="text-muted-foreground mx-1">/</span> Password123!</p>
+                </div>
+              )}
             </form>
 
           </div>
