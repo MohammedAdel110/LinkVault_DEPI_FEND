@@ -8,6 +8,7 @@ import apiClient from "@/api/client";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
+import { RainbowButton } from "@/components/ui/rainbow-button";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { cn } from "@/lib/utils";
 
@@ -297,7 +298,7 @@ export default function Login() {
                 {errors.password && <p className="text-xs text-destructive mt-1">{errors.password}</p>}
               </div>
 
-              <Button type="submit" className="w-full mt-6 h-11" disabled={loading}>
+              <RainbowButton type="submit" className="w-full mt-6 h-11" disabled={loading}>
                 {loading ? (
                   <Loader2 className="mr-2 h-4 w-4 animate-spin" />
                 ) : isLogin ? (
@@ -305,7 +306,7 @@ export default function Login() {
                 ) : (
                   "Create Account"
                 )}
-              </Button>
+              </RainbowButton>
 
               {isLogin && (
                 <div className="mt-6 p-4 rounded-xl bg-accent/5 border border-accent/20 text-center text-sm">
