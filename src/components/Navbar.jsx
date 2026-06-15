@@ -19,7 +19,7 @@ export function Navbar() {
       <div className="mx-auto flex h-14 max-w-6xl items-center px-6 gap-4">
         {/* Logo */}
         <Link to="/bookmarks" className="flex items-center w-48 shrink-0 -ml-2">
-          <img src="/logo.png" alt="LinkVault" className="h-8 w-auto object-contain scale-[3] origin-left" />
+          <img src="/logo.png" alt="LinkVault" className="h-8 w-auto object-contain scale-[3] origin-left transition-all dark:brightness-0 dark:invert" />
         </Link>
 
         {/* Desktop Nav */}

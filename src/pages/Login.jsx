@@ -165,7 +165,7 @@ export default function Login() {
           className="flex flex-col justify-center px-8 py-12 lg:w-[45%] lg:px-16 lg:py-24"
         >
           <div className="mb-12 mt-4 flex items-center">
-            <img src="/logo.png" alt="LinkVault" className="h-16 w-auto object-contain scale-[3] origin-left" />
+            <img src="/logo.png" alt="LinkVault" className="h-16 w-auto object-contain scale-[3] origin-left transition-all dark:brightness-0 dark:invert" />
           </div>
           <h2 className="mb-6 font-display text-3xl lg:text-5xl leading-tight">
             Your digital <br />
